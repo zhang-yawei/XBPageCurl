@@ -55,7 +55,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
-    
+
     NSDictionary *demo = self.demosArray[indexPath.row];
     cell.textLabel.text = demo[kNameKey];
 

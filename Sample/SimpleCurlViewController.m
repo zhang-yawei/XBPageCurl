@@ -78,12 +78,14 @@
     isCurled = YES;
 }
 
+// ... 按钮
 - (IBAction)uncurlButtonAction:(id)sender
 {
     [self.curlView uncurlAnimatedWithDuration:kDuration];
     isCurled = NO;
 }
 
+// back 按钮
 - (IBAction)backButtonAction:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];

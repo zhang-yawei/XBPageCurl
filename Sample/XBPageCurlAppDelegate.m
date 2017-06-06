@@ -13,6 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
+    // 判断设备类型
     NSString *nibName = UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad? @"RootViewController_iPad": @"RootViewController_iPhone";
     RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:nibName bundle:nil];
 

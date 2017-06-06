@@ -179,6 +179,7 @@ void ImageProviderReleaseData(void *info, const void *data, size_t size);
 
 - (id)initWithFrame:(CGRect)frame
 {
+    // 
     return [self initWithFrame:frame antialiasing:NO];
 }
 

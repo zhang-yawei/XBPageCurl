@@ -18,6 +18,7 @@
  */
 @interface XBCurlView : UIView 
 
+// antialias 抗锯齿 平滑
 @property (nonatomic, readonly) BOOL antialiasing;
 @property (nonatomic, assign) BOOL pageOpaque; // Whether the page texture is opaque
 @property (nonatomic, readonly) NSUInteger horizontalResolution; //Number of colums of rectangles
